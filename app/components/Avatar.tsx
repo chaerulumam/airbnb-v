@@ -11,6 +11,7 @@ const Avatar = () => {
       className="rounded-full"
       height="30"
       width="30"
+      priority
     />
   );
 };
