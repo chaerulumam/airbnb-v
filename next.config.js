@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  serverless: {
-    maxLambdaInstances: 10,
-  },
   experimental: {
     appDir: true,
   },
