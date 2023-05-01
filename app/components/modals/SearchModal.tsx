@@ -151,7 +151,7 @@ const SearchModal = () => {
     );
   }
 
-  if (STEPS.INFO) {
+  if (step === STEPS.INFO) {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading title="More information" subtitle="Find your perfect place!" />
