@@ -10,9 +10,6 @@ const nextConfig = {
       "res.cloudinary.com",
     ],
   },
-  serverless: {
-    maxLambdaInstances: 20,
-  },
 };
 
 module.exports = nextConfig;
